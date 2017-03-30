@@ -1,7 +1,8 @@
 # GQWeakProxy
 A proxy used to hold a weak object It can be used avoid retain cycles, such as the target in NSTimer or CADisplayLink
 
-     `@implementation MyView {
+     `
+     @implementation MyView {
           NSTimer *_timer;
      }
 
@@ -11,4 +12,5 @@ A proxy used to hold a weak object It can be used avoid retain cycles, such as t
      }
 
      - (void)tick:(NSTimer *)timer {...}
-     @end`
+     @end
+     `

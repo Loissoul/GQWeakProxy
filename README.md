@@ -5,7 +5,7 @@ A proxy used to hold a weak object It can be used avoid retain cycles, such as t
 [源码YYKit](https://github.com/ibireme/YYKit/blob/master/YYKit/Utility/YYWeakProxy.h)
 
 
-`
+```
 @implementation MyView {
   NSTimer *_timer;
 }
@@ -15,6 +15,4 @@ A proxy used to hold a weak object It can be used avoid retain cycles, such as t
 }
 -(void)tick:(NSTimer *)timer {...}
 @end
-`
-
-
+```

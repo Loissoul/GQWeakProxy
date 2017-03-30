@@ -1,6 +1,7 @@
 # GQWeakProxy
-### A proxy used to hold a weak object It can be used avoid retain cycles, such as the target in NSTimer or CADisplayLink
-
+================
+A proxy used to hold a weak object It can be used avoid retain cycles, such as the target in NSTimer or CADisplayLink
+(源码YYKit)[https://github.com/ibireme/YYKit/blob/master/YYKit/Utility/YYWeakProxy.h]
 `@implementation MyView {
   NSTimer *_timer;
 }
@@ -10,3 +11,5 @@
 }
 - (void)tick:(NSTimer *)timer {...}
 @end`
+
+
